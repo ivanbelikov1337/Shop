@@ -1,0 +1,62 @@
+.profile {
+    flex-grow: 1;
+    padding: 24px;
+}
+.lvlUser    {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    border: 0.1rem solid silver;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 5rem;
+    align-items: center;
+    margin-left: 5rem;
+    position: relative;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.group {
+    width: 20rem;
+    background: #212123;
+    border-radius: 8px;
+    color: var(--light);
+    padding: 12px 24px;
+}
+
+.group input {
+    width: 100%;
+}
+
+.submit {
+    width: 20rem;
+}
+
+.avatar {
+    width: 15rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: var(--dark);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
