@@ -35,16 +35,16 @@ const UserSignupForm = ({toggleCurrentFormType,closeForm}) => {
             </div>
             <form className={styles.form} onSubmit={handleSubmit}>
                 <div className={styles.group}>
-                    <input type="email" name="email"
+                    <input type="email" name="new-email"
                            placeholder={"Yor email"}
-                           autoComplete={"off"}
+                           autoComplete="off"
                            onChange={handleChangeInput}
                            required
                            value={values.email}
                     />
                 </div>
                 <div className={styles.group}>
-                    <input type="name" name="name"
+                    <input type="name" name="new-name"
                            placeholder={"Yor name"}
                            autoComplete={"off"}
                            onChange={handleChangeInput}
@@ -53,9 +53,9 @@ const UserSignupForm = ({toggleCurrentFormType,closeForm}) => {
                     />
                 </div>
                 <div className={styles.group}>
-                    <input type="password" name="password"
+                    <input type="password" name="new-password"
                            placeholder={"Yor password"}
-                           autoComplete={"off"}
+                           autoComplete="off"
                            onChange={handleChangeInput}
                            required
                            value={values.password}
@@ -64,7 +64,7 @@ const UserSignupForm = ({toggleCurrentFormType,closeForm}) => {
                 <div className={styles.group}>
                     <input type="avatar" name="avatar"
                            placeholder={"Yor avatar"}
-                           autoComplete={"off"}
+                           autoComplete="off"
                            onChange={handleChangeInput}
                            required
                            value={values.avatar}

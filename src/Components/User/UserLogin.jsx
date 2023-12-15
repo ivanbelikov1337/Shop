@@ -30,7 +30,7 @@ const UserSignupForm = ({toggleCurrentFormType,closeForm}) => {
             <div className={styles.title}>Log in</div>
             <form className={styles.form} onSubmit={handleSubmit}>
                 <div className={styles.group}>
-                    <input type="email" name="email"
+                    <input type="email" name="new-email"
                            placeholder={"Yor email"}
                            autoComplete={"off"}
                            onChange={handleChangeInput}
@@ -39,7 +39,7 @@ const UserSignupForm = ({toggleCurrentFormType,closeForm}) => {
                     />
                 </div>
                 <div className={styles.group}>
-                    <input type="password" name="password"
+                    <input type="password" name="new-password"
                            placeholder={"Yor password"}
                            autoComplete={"off"}
                            onChange={handleChangeInput}

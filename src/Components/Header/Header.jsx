@@ -50,8 +50,8 @@ const Header = (props) => {
                     <form className={styles.form}>
                         <div className={styles.icon}><AiOutlineSearch/></div>
                         <div className={styles.input}>
-                            <input type="search"
-                                   name={"search"}
+                            <input type="text"
+                                   name="search"
                                    placeholder={"Search for anything..."}
                                    autoComplete="off"
                                    onChange={handleSearch}

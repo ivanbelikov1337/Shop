@@ -51,12 +51,22 @@
 }
 
 .avatar {
-    width: 15rem;
-    height: 10rem;
+    width: 20rem;
+    height: 17rem;
     border-radius: 50%;
     background: var(--dark);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
+}
+
+@media (max-width: 500px) {
+    .wrapper    {
+        display: grid;
+        margin-left: 0;
+    }
+    .avatar {
+
+    }
 }

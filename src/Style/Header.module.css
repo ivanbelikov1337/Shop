@@ -33,15 +33,15 @@
   gap: 1rem;
 }
 .avatar {
-  width: 3.6rem;
-  height: 3.6rem;
+  width: 4.6rem;
+  height: 4.6rem;
   border-radius: 50%;
   background: silver no-repeat center;
   background-size: cover;
 }
 
 .username {
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.2rem;
   color: var(--grey);
 }
@@ -186,5 +186,8 @@
   }
   .form {
     width: 15rem;
+  }
+  .username {
+    display: none;
   }
 }
