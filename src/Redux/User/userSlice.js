@@ -5,6 +5,7 @@ import {BASE_URL} from "../../Utils/constants";
 export const creatUser = createAsyncThunk(
     "users/creatUser",
     async (payload, thunkAPI) => {
+        console.log(payload)
         try {
             const res = await axios.post(`${BASE_URL}/users`, payload);
             return res.data;

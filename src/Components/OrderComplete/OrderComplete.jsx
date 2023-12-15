@@ -7,7 +7,7 @@ import { BsFillBagCheckFill } from 'react-icons/bs';
 
 const OrderComplete = () => {
     const dispatch = useDispatch();
-    const { currentUser,cart,confirmOrder } = useSelector(({ user }) => user);
+    const { currentUser,confirmOrder } = useSelector(({ user }) => user);
     const [switcher, setSwitcher] = useState(false)
     const [values, setValues] = useState({
         name: "",

@@ -1,14 +1,13 @@
 body {
   background: var(--bg);
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
   font-family: Montserrat, Roboto, sans-serif;
-  padding: 0;
+  padding: 0 0 2rem 0;
   margin: 0;
   overflow-x: hidden;
   color: #fff;
   font-weight: 500;
-  padding-bottom: 20px;
 }
 
 h1,
@@ -20,8 +19,8 @@ h6,
 p {
   margin: 0;
   padding: 0;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 
 * {
@@ -39,7 +38,7 @@ button {
   background: none;
   outline: none;
   color: #fff;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: Montserrat, Roboto, sans-serif;
 }
 
@@ -56,8 +55,8 @@ li {
 }
 
 .app {
-  width: 1274px;
-  margin: 0 auto;
+  width: 100vw;
+  padding: 0 4rem 0 4rem;
 }
 
 .flex {
@@ -70,27 +69,27 @@ li {
 }
 
 .icon {
-  width: 12px;
-  height: 12px;
+  width: 1.2rem;
+  height: 1.2rem;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 2rem;
 }
 
 section {
   background: var(--dark);
-  border-radius: 6px;
+  border-radius: 0.6rem;
 }
 
 button {
   background: var(--violet-dark);
-  border-radius: 6px;
-  padding: 9px 20px;
+  border-radius: 0.6rem;
+  padding: 0.9rem 2rem;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 2rem;
   cursor: pointer;
 }
 
@@ -100,8 +99,8 @@ button:hover {
 
 h2 {
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   text-align: center;
 }
 
@@ -122,8 +121,17 @@ input {
 
 .preloader {
   flex-grow: 1;
-  padding: 24px;
+  padding: 2.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .app  {
+    padding: 0 2rem 0 2rem;
+  }
+  .container  {
+
+  }
 }

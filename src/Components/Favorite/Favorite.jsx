@@ -1,11 +1,10 @@
 import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import { removeItemFromFavorite} from "../../Redux/User/userSlice";
+import {removeItemFromFavorite} from "../../Redux/User/userSlice";
 import styles from "../../Style/Cart.module.css"
-import {AiOutlineMinus, AiOutlinePlus} from "react-icons/ai";
 import {GrClose} from "react-icons/gr";
-import {sumBy} from "../../Utils/common";
 import {Link} from "react-router-dom";
+
 const Favorite = () => {
     const {favorite} = useSelector(({user}) => user)
     const dispatch  = useDispatch()

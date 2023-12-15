@@ -2,12 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
-  padding: 24px;
+  margin-top: 2rem;
+  padding: 2.4rem;
 }
 
 .logo {
-  width: 61px;
+  width: 6.1rem;
 }
 
 .logo a {
@@ -16,8 +16,8 @@
 
 .rights {
   color: var(--dark-sea);
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
 .rights a {
@@ -26,12 +26,12 @@
 
 .socials {
   display: flex;
-  gap: 15px;
+  gap: 1.5rem;
 }
 
 .socials svg {
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
   fill: var(--dark-sea);
 }
 

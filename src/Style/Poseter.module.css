@@ -5,8 +5,8 @@
 
 .title {
   font-weight: 900;
-  font-size: 119px;
-  line-height: 145px;
+  font-size: 11.9rem;
+  line-height: 14.5rem;
   text-transform: uppercase;
   color: var(--bg);
   text-align: center;
@@ -14,32 +14,32 @@
 
 .product {
   position: relative;
-  padding-left: 42px;
+  padding-left: 4.2rem;
   display: flex;
   align-items: stretch;
-  margin-top: 9px;
+  margin-top: 0.9rem;
 }
 
 .subtitle {
-  line-height: 20px;
+  line-height: 2rem;
   text-transform: uppercase;
   color: var(--sea);
 }
 
 .head {
   font-weight: 700;
-  font-size: 42px;
-  line-height: 51px;
+  font-size: 4.2rem;
+  line-height: 5.1rem;
   text-transform: uppercase;
   color: var(--light);
-  max-width: 500px;
-  margin: 10px 0 24px 0;
+  max-width: 50rem;
+  margin: 1rem 0 2.4rem 0;
 }
 
 .image {
   position: relative;
   flex-grow: 1;
-  height: 250px;
+  height: 25rem;
 }
 
 .image img {
@@ -52,7 +52,7 @@
 .banner {
   display: flex;
   width: 100%;
-  height: 570px;
+  height: 57rem;
 }
 
 .left {
@@ -73,37 +73,37 @@
 }
 
 .left:before {
-  width: 204px;
-  height: 170px;
-  left: -25px;
-  bottom: 74px;
+  width: 20rem;
+  height: 17rem;
+  left: -2.5rem;
+  bottom: 7.4rem;
   background: url("../../src/Images/devices.png") no-repeat center/contain;
 }
 
 .left:after {
-  width: 269px;
-  height: 151px;
-  right: -25px;
-  bottom: -25px;
+  width: 26.9rem;
+  height: 15.1rem;
+  right: -2.5rem;
+  bottom: -2.5rem;
   background: url("../../src/Images/devices.png") no-repeat center/contain;
 }
 
 .content {
   color: var(--violet);
   font-weight: 300;
-  font-size: 70px;
-  line-height: 85px;
+  font-size: 7rem;
+  line-height: 8.5rem;
   text-align: center;
 }
 
 .content span {
-  line-height: 183px;
-  font-size: 150px;
+  line-height: 18.3rem;
+  font-size: 15rem;
   display: block;
 }
 
 .more {
-  margin-top: 27px;
+  margin-top: 2.7rem;
 }
 
 .right {
@@ -113,14 +113,14 @@
 
 .discount {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   text-align: center;
   color: var(--bg);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 24px;
+  bottom: 2.4rem;
 }
 
 .discount span {
@@ -132,9 +132,34 @@
 }
 .button {
   background: var(--violet-dark);
-  border-radius: 6px;
-  padding: 9px 20px;
+  border-radius: 0.6rem;
+  padding: 0.9rem 2rem;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 2rem;
   cursor: pointer;
+}
+.posterImg  {
+  width: 38rem;
+  height: 38rem;
+}
+
+
+@media (max-width: 500px) {
+  .title  {
+    font-size: 4rem;
+  }
+  .subtitle {
+    font-size: 1.6rem;
+  }
+  .head {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  .posterImg  {
+    width: 20rem;
+    height: 20rem;
+  }
+  .image img {
+    bottom: -10%;
+  }
 }

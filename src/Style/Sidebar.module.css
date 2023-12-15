@@ -1,27 +1,27 @@
 .sidebar {
-  width: 304px;
-  padding: 24px;
-  height: 423px;
+  width: 30.4rem;
+  padding: 2.4rem;
+  height: 42.3rem;
   display: flex;
   flex-direction: column;
 }
 
 .title {
   font-weight: 600;
-  line-height: 20px;
+  line-height: 2rem;
 }
 
 .menu {
-  margin-top: 32px;
+  margin-top: 3.2rem;
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
+  row-gap: 1.2rem;
 }
 
 .link {
   color: var(--dark-sea);
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
   text-transform: capitalize;
 }
 
@@ -37,4 +37,22 @@
   margin-top: auto;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .sidebar  {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sidebar  {
+    width: 20rem;
+  }
+}
+@media (max-width: 500px) {
+  .sidebar  {
+    order: 1;
+    width: 100%;
+  }
 }

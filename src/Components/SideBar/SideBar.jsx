@@ -3,11 +3,8 @@ import styles from "../../Style/Sidebar.module.css"
 import {NavLink} from "react-router-dom";
 import {useSelector} from "react-redux";
 
-const SideBar = (props) => {
-
+const SideBar = () => {
     const {list} = useSelector(({categories}) => categories);
-
-
     return (
         <section className={styles.sidebar}>
             <div className={styles.title}>

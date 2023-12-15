@@ -13,52 +13,52 @@
   top: 0;
   right: 0;
   background: var(--dark);
-  width: 320px;
+  width: 32rem;
   height: 100vh;
   z-index: 99;
-  padding: 24px;
+  padding: 2.4rem;
 }
 
 .title {
   font-weight: 400;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
   color: var(--light);
   text-align: center;
 }
 
 .form {
-  margin-top: 24px;
+  margin-top: 2.4rem;
   display: flex;
   width: 100%;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 1.6rem;
 }
 
 .group input {
   width: 100%;
   background: #212123;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   color: var(--light);
-  padding: 12px 24px;
+  padding: 1.2rem 2.4rem;
 }
 
 .submit {
   font-weight: 500;
-  line-height: 20px;
+  line-height: 2rem;
 }
 
 .close {
   position: absolute;
-  top: 14px;
-  right: 14px;
+  top: 1.4rem;
+  right: 1.4rem;
   z-index: 9;
   cursor: pointer;
 }
 
 .close svg {
-  width: 20px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
   stroke: var(--dark-sea);
 }
 
@@ -67,7 +67,7 @@
 }
 
 .link {
-  font-size: 13px;
+  font-size: 1.3rem;
   color: var(--dark-sea);
   cursor: pointer;
   text-align: center;

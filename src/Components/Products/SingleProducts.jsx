@@ -8,7 +8,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {getRelativeProducts} from "../../Redux/Products/productsSlice";
 
 
-const SingleProducts = (props) => {
+const SingleProducts = () => {
     const {id} = useParams()
     const {data, isLoading, isFetching, isSuccess} = useGetProductQuery({id})
     const navigate = useNavigate()
@@ -19,7 +19,7 @@ const SingleProducts = (props) => {
         if (!isFetching && !isLoading && !isSuccess) {
             navigate(ROUTES.HOME)
         }
-    }, [isLoading, isFetching, isSuccess]);
+    }, [isLoading, isFetching,navigate, isSuccess,]);
 
     useEffect(() => {
         if (!data || !list.length) return

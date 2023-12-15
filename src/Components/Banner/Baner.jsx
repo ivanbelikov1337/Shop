@@ -4,7 +4,7 @@ import bannerImg from "../../Images/banner.png"
 import {Link} from "react-router-dom";
 import {ROUTES} from "../../Utils/routes";
 
-const Banner = (props) => {
+const Banner = () => {
     return (
         <section className={styles.banner}>
             <div className={styles.left}>

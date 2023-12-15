@@ -1,6 +1,6 @@
 .profile {
     flex-grow: 1;
-    padding: 24px;
+    padding: 2.4rem;
 }
 .lvlUser    {
     position: absolute;
@@ -27,7 +27,7 @@
 .form {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 1rem;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -37,9 +37,9 @@
 .group {
     width: 20rem;
     background: #212123;
-    border-radius: 8px;
+    border-radius: 0.8rem;
     color: var(--light);
-    padding: 12px 24px;
+    padding: 1.2rem 2.4rem;
 }
 
 .group input {

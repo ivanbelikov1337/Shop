@@ -13,6 +13,7 @@ const UserSignupForm = ({toggleCurrentFormType,closeForm}) => {
         avatar: ""
     })
 
+
     const handleChangeInput = ({target: {value, name}}) => {
         setValue({...values, [name]: value})
     }

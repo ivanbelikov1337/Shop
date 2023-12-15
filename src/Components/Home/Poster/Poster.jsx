@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from "../../../Style/Poseter.module.css"
 import BG from '../../../Images/computer.png'
-import {Link} from "react-router-dom";
-import {ROUTES} from "../../../Utils/routes";
-const Poster = (props) => {
+
+const Poster = () => {
     return (
         <section className={styles.home}>
             <div className={styles.title}>
@@ -17,7 +16,7 @@ const Poster = (props) => {
                     <h1 className={styles.head}>Falcon Northwest Tiki NVIDIA 5090 TI</h1>
                 </div>
                 <div className={styles.image }>
-                    <img src={BG} alt="computer"/>
+                    <img src={BG} className={styles.posterImg} alt="computer"/>
                 </div>
             </div>
         </section>
